@@ -432,7 +432,6 @@ body::-webkit-scrollbar-thumb {
   padding: 12px 15px;
   text-transform: capitalize;
   text-align: left;
-  transition: all 0.4s ease;
   transform: scale(1);
   font-size: 21px;
 }
@@ -444,14 +443,12 @@ body::-webkit-scrollbar-thumb {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
-  transition: all 0.4s ease;
 }
 .services .items .iconify {
   position: absolute;
   bottom: 10%;
   right: 13%;
   font-size: 1.8rem;
-  transition: all 0.4s ease;
   color: #fff;
 }
 .services .items:hover img {
@@ -607,7 +604,6 @@ footer .nav-item a:hover {
   margin-bottom: 24px;
   border-radius: 20px;
   border: 1px solid #f1f1f1;
-  transition: 0.3s;
 }
 .blog .blog-box:hover {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1019607843);
@@ -625,7 +621,6 @@ footer .nav-item a:hover {
   width: 100%;
   height: auto;
   position: relative;
-  transition: 0.5s;
   overflow: hidden;
 }
 .blog .blog-images .photo img {
@@ -824,31 +819,6 @@ footer .nav-item a:hover {
   background-color: #ffa500 !important;
 }
 
-#imageGallery {
-  display: flex !important;
-  max-width: 100% !important;
-  text-align: center;
-  flex-wrap: wrap;
-  padding: 0;
-}
-#imageGallery img {
-  width: 100%;
-  margin-bottom: 13px;
-}
-#imageGallery a {
-  transition: all 0.3s ease-in-out;
-}
-#imageGallery a:hover {
-  transform: translateY(-5px);
-}
-
-.publications a {
-  transition: all 0.3s ease-in-out;
-}
-.publications a:hover {
-  transform: translateY(-5px);
-}
-
 .contact .form-group {
   margin-bottom: 15px;
 }
@@ -862,7 +832,6 @@ footer .nav-item a:hover {
   padding: 20px;
   margin-bottom: 24px;
   border: 1px solid #f1f1f1;
-  transition: 0.3s;
   border-radius: 20px;
 }
 .blog .blog-box:hover {
@@ -881,7 +850,6 @@ footer .nav-item a:hover {
   width: 100%;
   height: auto;
   position: relative;
-  transition: 0.5s;
   overflow: hidden;
 }
 .blog .blog-images .photo img {
@@ -961,7 +929,6 @@ footer .nav-item a:hover {
 .blog-aside .categori .categori-list li a {
   color: #fff;
   display: flex;
-  transition: all 0.3s ease-in-out;
   text-decoration: none;
 }
 .blog-aside .categori .categori-list li a span:nth-child(1) {
@@ -1023,7 +990,6 @@ footer .nav-item a:hover {
   font-weight: normal;
   font-size: 14px;
   color: #a3a3a3;
-  transition: all 0.3s ease-in;
 }
 .blog-aside .recent-post-widget .post-list li .post .post-details a .post-title:hover {
   color: #ffa500 !important;
@@ -1074,7 +1040,6 @@ footer .nav-item a:hover {
   font-size: 14px;
   margin-right: 10px;
   color: #585f6a;
-  transition: all 0.4s ease;
   text-decoration: none;
 }
 .blog-details .blog-content .content .post-meta li a i {
@@ -1132,21 +1097,12 @@ footer .nav-item a:hover {
   color: #fff;
   margin-left: 2px;
   background: #ffa500 !important;
-  transition: all 0.3s ease-in;
 }
 .blog-details .blog-content .content .tag-social-link .social-links li a:hover {
   box-shadow: 0px 10px 30px 0px rgba(90, 62, 241, 0.3019607843);
 }
 .blog-details .blog-content .content .tag-social-link .social-links li a i {
   margin-top: 8px;
-}
-
-.team .card {
-  transition: all 0.3s ease-in-out;
-  margin-bottom: 25px;
-}
-.team .card:hover {
-  transform: translateY(-10px);
 }
 
 @media (max-width: 960px) {

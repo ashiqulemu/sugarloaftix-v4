@@ -551,8 +551,7 @@ body {
             padding: 12px 15px;
             text-transform: capitalize;
             text-align: left;
-            -webkit-transition: all 0.5s ease;
-            transition: all 0.4s ease;
+             
             transform: scale(1);
             font-size: 21px;
         }
@@ -563,16 +562,14 @@ body {
             height: 100%;
             width: 100%;
             height: 150px;
-            object-fit: cover;
-            transition: all 0.4s ease;
+            object-fit: cover; 
         }
 
         .iconify {
             position: absolute;
             bottom: 10%;
             right: 13%;
-            font-size: 1.8rem;
-            transition: all 0.4s ease;
+            font-size: 1.8rem; 
             color: #fff;
         }
 
@@ -775,11 +772,7 @@ footer {
         padding: 20px;
         margin-bottom: 24px;
         border-radius: 20px;
-        border: 1px solid #f1f1f1;
-        -webkit-transition: 0.3s;
-        -moz-transition: 0.3s;
-        -o-transition: 0.3s;
-        transition: 0.3s;
+        border: 1px solid #f1f1f1; 
 
 
 
@@ -801,8 +794,7 @@ footer {
         .photo {
             width: 100%;
             height: auto;
-            position: relative;
-            transition: 0.5s;
+            position: relative; 
             overflow: hidden;
 
             img {
@@ -1049,42 +1041,9 @@ footer {
 }
 
 
-// gallery 
+ 
 
-#imageGallery {
-    display: flex !important;
-    max-width: 100% !important;
-    ;
-    text-align: center;
-    flex-wrap: wrap;
-    padding: 0;
-
-    img {
-        width: 100%;
-        margin-bottom: 13px;
-    }
-
-    a {
-        transition: all 0.3s ease-in-out;
-
-        &:hover {
-            transform: translateY(-5px);
-        }
-    }
-
-}
-
-// publications
-
-.publications {
-    a {
-        transition: all 0.3s ease-in-out;
-
-        &:hover {
-            transform: translateY(-5px);
-        }
-    }
-}
+ 
 
 // contact 
 
@@ -1105,11 +1064,7 @@ footer {
         background: #ffffff;
         padding: 20px;
         margin-bottom: 24px;
-        border: 1px solid #f1f1f1;
-        -webkit-transition: 0.3s;
-        -moz-transition: 0.3s;
-        -o-transition: 0.3s;
-        transition: 0.3s;
+        border: 1px solid #f1f1f1; 
         border-radius: 20px;
 
         &:hover {
@@ -1130,8 +1085,7 @@ footer {
         .photo {
             width: 100%;
             height: auto;
-            position: relative;
-            transition: 0.5s;
+            position: relative; 
             overflow: hidden;
 
             img {
@@ -1228,8 +1182,7 @@ footer {
                     color: $white;
                     display: -webkit-box;
                     display: -ms-flexbox;
-                    display: flex;
-                    transition: all 0.3s ease-in-out;
+                    display: flex; 
                     text-decoration: none;
 
                     span {
@@ -1303,10 +1256,7 @@ footer {
                             .post-title {
                                 font-weight: normal;
                                 font-size: 14px;
-                                color: #a3a3a3;
-                                -webkit-transition: all 0.3s ease-in;
-                                -o-transition: all 0.3s ease-in;
-                                transition: all 0.3s ease-in;
+                                color: #a3a3a3; 
 
                                 &:hover {
                                     color: $secondary;
@@ -1376,8 +1326,7 @@ footer {
                     a {
                         font-size: 14px;
                         margin-right: 10px;
-                        color: #585f6a;
-                        transition: all 0.4s ease;
+                        color: #585f6a; 
                         text-decoration: none;
 
                         i {
@@ -1450,10 +1399,7 @@ footer {
                             display: inline-block;
                             color: #fff;
                             margin-left: 2px;
-                            background: $primary;
-                            -webkit-transition: all 0.3s ease-in;
-                            -o-transition: all 0.3s ease-in;
-                            transition: all 0.3s ease-in;
+                            background: $primary; 
 
                             &:hover {
                                 box-shadow: 0px 10px 30px 0px #5a3ef14d;
@@ -1471,16 +1417,7 @@ footer {
     }
 }
 
-.team {
-    .card {
-        transition: all 0.3s ease-in-out;
-        margin-bottom: 25px;
-
-        &:hover {
-            transform: translateY(-10px);
-        }
-    }
-}
+ 
 
 
 .brand-logo {
