@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @font-face {
-  font-family: space-regular;
-  src: url("../fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2");
+  font-family: LibreFranklin-Regular;
+  src: url("../fonts/LibreFranklin-Regular.ttf");
 }
 * {
-  font-family: space-regular;
+  font-family: LibreFranklin-Regular !important;
 }
 
 a {
@@ -129,6 +129,7 @@ html {
   box-shadow: 0px 1px 0px rgba(60, 60, 60, 0.3607843137);
   font-weight: bolder;
   font-size: 14px;
+  text-transform: uppercase;
 }
 .card-style .content .title {
   font-size: 27px;
@@ -175,9 +176,6 @@ html {
   border-color: #ffa500 !important;
 }
 .card-style .content:hover .title {
-  color: #612A83;
-}
-.card-style .content:hover .datetime {
   color: #ffa500 !important;
 }
 .card-style.blogBox:hover {
@@ -185,7 +183,6 @@ html {
 }
 
 body {
-  font-family: space-regular;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1194,4 +1191,12 @@ footer .nav-item a:hover {
 }
 .btn-primary:hover {
   background: #401858;
+}
+
+input[type=checkbox] {
+  accent-color: #ffa500 !important;
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  margin-bottom: 7px;
 }/*# sourceMappingURL=app.css.map */

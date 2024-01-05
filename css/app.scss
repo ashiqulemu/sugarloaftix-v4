@@ -7,14 +7,14 @@ $txt: #585858;
 $white: #fff;
 
 @font-face {
-    font-family: space-regular;
-    src: url('../fonts/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2');
+    font-family:LibreFranklin-Regular;
+    src: url('../fonts/LibreFranklin-Regular.ttf');
 }
 
 
 
 * {
-    font-family: space-regular;
+    font-family:LibreFranklin-Regular!important;
 }
 
 
@@ -150,9 +150,7 @@ html {
         background: #ffffffad;
         flex: 1;
         position: relative;
-        backdrop-filter: blur(3px);
-
-
+        backdrop-filter: blur(3px); 
         .datetime {
             background: repeating-linear-gradient(132deg, rgba(225, 225, 225, 0.4901960784), rgba(201, 201, 201, 0.4784313725) 100px);
             color: #000;
@@ -168,6 +166,7 @@ html {
             box-shadow: 0px 1px 0px #3c3c3c5c;
             font-weight: bolder;
             font-size: 14px;
+            text-transform: uppercase;
         }
 
         .title {
@@ -222,12 +221,8 @@ html {
             }
 
             .title {
-                color: #612A83;
-            }
-
-            .datetime{
-                color: $primary;
-            }
+                color: $secondary;
+            } 
 
         }
     }
@@ -243,8 +238,7 @@ html {
 
 
 body {
-    font-family: space-regular;
-    // background: url('../images/pexels-vishnu-r-nair-1105666.jpg');
+     
     background-size: cover;
     background-attachment: fixed;
 
@@ -1533,4 +1527,13 @@ footer {
     &:hover {
         background: #401858;
     }
+}
+
+
+input[type='checkbox'] {
+    accent-color: #ffa500 !important;
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin-bottom: 7px;
 }
