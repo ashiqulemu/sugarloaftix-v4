@@ -367,7 +367,8 @@ body {
 
 .recent_blog {
     padding: 50px 0;
-    background: linear-gradient(0deg, rgb(59 5 80 / 49%), rgb(255 225 171)), url(../images/bg.jpg);
+    background: #322d2d0f;
+    // background: linear-gradient(0deg, rgb(59 5 80 / 49%), rgb(255 225 171)), url(../images/bg.jpg);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background-size: cover;
