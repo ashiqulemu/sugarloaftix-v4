@@ -217,7 +217,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 22px;
 }
 .topbar .inner .social-icons:hover iconify-icon {
-  color: #000;
+  color: #ffffff;
 }
 
 .siteHeader {
@@ -350,7 +350,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .blogBox {
-  margin-bottom: 20px;
   width: 100%;
   border-radius: 6px;
 }
@@ -1154,4 +1153,5 @@ input[type=checkbox] {
   width: 25px;
   vertical-align: middle;
   margin-bottom: 7px;
+  margin-right: 5px;
 }/*# sourceMappingURL=app.css.map */

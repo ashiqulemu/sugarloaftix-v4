@@ -281,7 +281,7 @@ body {
 
             &:hover {
                 iconify-icon {
-                    color: #000;
+                    color: #ffffff;
 
                 }
             }
@@ -450,8 +450,7 @@ body {
     padding: 10px 0;
 }
 
-.blogBox {
-    margin-bottom: 20px;
+.blogBox { 
     width: 100%;
     border-radius: 6px;
 
@@ -1474,4 +1473,5 @@ input[type='checkbox'] {
     width: 25px;
     vertical-align: middle;
     margin-bottom: 7px;
+    margin-right: 5px;
 }
